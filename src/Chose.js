@@ -1,6 +1,6 @@
 // une chose
 export default class Chose {
-  constructor(texte, fait = false, id) {
+  constructor(id, texte, fait = false) {
     this._texte = texte;
     this._fait = fait;
     //this._id = Date.now() + Math.floor(Math.random() * 10); // génération d'un id unique
